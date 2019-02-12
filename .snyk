@@ -1,0 +1,36 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - promises-aplus-tests > mocha > debug:
+        patched: '2019-02-12T23:47:42.128Z'
+  'npm:hoek:20180212':
+    - karma > log4js > loggly > request > hawk > hoek:
+        patched: '2019-02-12T23:47:42.128Z'
+    - karma > log4js > loggly > request > hawk > boom > hoek:
+        patched: '2019-02-12T23:47:42.128Z'
+    - karma > log4js > loggly > request > hawk > sntp > hoek:
+        patched: '2019-02-12T23:47:42.128Z'
+    - karma > log4js > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-02-12T23:47:42.128Z'
+  'npm:mime:20170907':
+    - testswarm > request > mime:
+        patched: '2019-02-12T23:47:42.128Z'
+    - testswarm > request > form-data > mime:
+        patched: '2019-02-12T23:47:42.128Z'
+  'npm:minimatch:20160620':
+    - grunt-npmcopy > glob > minimatch:
+        patched: '2019-02-12T23:47:42.128Z'
+    - promises-aplus-tests > mocha > glob > minimatch:
+        patched: '2019-02-12T23:47:42.128Z'
+  'npm:ms:20170412':
+    - promises-aplus-tests > mocha > debug > ms:
+        patched: '2019-02-12T23:47:42.128Z'
+  'npm:request:20160119':
+    - testswarm > request:
+        patched: '2019-02-12T23:47:42.128Z'
+  'npm:tunnel-agent:20170305':
+    - karma > log4js > loggly > request > tunnel-agent:
+        patched: '2019-02-12T23:47:42.128Z'
